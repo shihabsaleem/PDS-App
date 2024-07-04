@@ -1,0 +1,24 @@
+.nav-right {
+  display: flex;
+  flex-direction: row;
+
+  .noti-bell {
+    height: 1rem;
+    min-width: 1rem;
+    fill: white;
+    margin: 0.5rem;
+  }
+  .dp-image {
+    height: 2rem;
+    width: auto;
+    border-radius: 50%;
+    margin: 0.5rem;
+  }
+  .chevron-svg {
+    height: 1rem;
+    min-width: 1rem;
+    fill: white;
+    position: relative;
+    top: 0.5rem;
+  }
+}
