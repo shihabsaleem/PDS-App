@@ -1,0 +1,36 @@
+.sidenav {
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  max-width: 250px;
+  background-color: #3a3a4a;
+  padding: 1rem 0 1rem 0.25rem;
+  color: #fff;
+
+  .nav-link {
+    color: #fff;
+
+    &:hover {
+      background-color: #23232f;
+      border-left: 0.25rem solid #77c043;
+    }
+
+    .dflex {
+      display: flex;
+      align-items: center; 
+      flex-direction: row;
+      padding: 0.5rem; 
+
+      .icon {
+        min-height: 1rem;
+        min-width: 1rem;
+        margin-right: 1rem;
+        fill: white;
+
+      }
+      .navlink-text{
+        font-size: 1rem;
+      }
+    }
+  }
+}
